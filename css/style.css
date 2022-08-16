@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+
+.pos-fixed-hv-center {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    padding: 1rem;
+}
+
+.pos-fixed-hv-center:hover {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem gray;
+}
+
+.topic-category {
+    font-size: 0px;
+    background-color: black;
+}
+
+.topic-category>a {
+    font-size: 1rem;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.topic-category>a:hover {
+    background-color: darkcyan;
+}
+
+.header {
+    position: relative;
+    box-shadow: 0 0 .5rem gray;
+    padding: 1rem;
+}
+
+.header>h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.main-body>.items-box {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 0px;
+}
+
+.main-body>.items-box>.item {
+    font-size: 1rem;
+    margin: 1rem 5% 0;
+}
+
+.main-body>.items-box>.item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+    padding: 2rem;
+    text-decoration: none;
+    border: 1px solid gray;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.main-body>.items-box>.item:hover {
+    background-color: darkcyan;
+    box-shadow: 0 0 .5rem gray, 0 0 1rem gray;
+    font-weight: bold;
+}
+
+.practices-box {
+    font-size: 0px;
+    margin-top: 1rem;
+}
+
+.practices-box>a {
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: .5rem 1rem;
+}
+
+.practices-box>a:hover {
+    background-color: darkcyan;
+}
+
+.main-body>.practice-items-box {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 0px;
+}
+
+.main-body>.practice-items-box>.practice-item {
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: block;
+}
+
+.main-body>.practice-items-box>.practice-item>.practice-item-date {
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: 1px solid black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.main-body>.practice-items-box>.practice-item:hover {
+    box-shadow: 0 0 .5rem black, 0 0 1rem black;
+    border-radius: 1rem;
+}
+
+.main-body>.practice-items-box>.practice-item>.practice-item-files {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
